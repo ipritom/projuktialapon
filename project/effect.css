@@ -1,0 +1,42 @@
+.zoomtext{
+}
+.zoomtext:hover{
+transform: scale(1.04);
+transition: all .5s ease-in-out;
+}
+.glow1{
+}
+.glow2{
+}
+.glow1:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 15px #10fffc;
+}
+.glow2:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 15px #1037ff;
+}
+
+
+/*Bangla Font-family */
+
+@font-face{
+    font-family:bangla;
+    src: url("font/Bangla-Medium.ttf") format("truetype");
+    
+}
+@font-face{
+    font-family:galada;
+    src: url("font/Galada-Regular.ttf") format("truetype");
+    
+}
+
+@font-face{
+    font-family:ekush;
+    src: url("font/Ekushey_Puja-Normal.ttf") format("truetype");
+    
+}
+@font-face{
+    font-family:balooda;
+    src: url("font/Baloo_Da-Regular.ttf") format("truetype");
+}
